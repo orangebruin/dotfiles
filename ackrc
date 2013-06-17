@@ -1,0 +1,7 @@
+--type-set=conf=.conf
+--type-set=gyp=.gyp,.gypi
+--type-set=idl=.idl
+--type-set=iml=.iml
+--type-set=in=.in
+--type-set=mk=.mk
+--type-set=ninja=.ninja

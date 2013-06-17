@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/albrooks/src/v25-release/Cloud9NativeChromiumBuild/src/media/base/android/java/src/org'
+let g:netrw_dirhist_2='/home/albrooks/src/v25-release/Cloud9NativeChromiumBuild/src/media/base/android/java/src/org/chromium'
+let g:netrw_dirhist_3='/home/albrooks/src/v25-release/Cloud9NativeChromiumBuild/src/media/base/android/java/src/org/chromium/media'
+let g:netrw_dirhist_4='/home/albrooks/src/v25-release/Cloud9NativeChromiumBuild/src/third_party/WebKit/Source/WebCore/dom'
+let g:netrw_dirhist_5='/home/albrooks/src/v25-release/Cloud9NativeChromiumBuild/src/amazon/android/testapp/src/com/amazon/webview/app'
+let g:netrw_dirhist_6='/home/albrooks/src/v25-amznwv/Cloud9NativeChromiumBuild/src/out/Debug/gen/content'
+let g:netrw_dirhist_7='/home/albrooks/src/v25-amznwv/Cloud9NativeChromiumBuild/src/out/Debug/gen/content/jni'
