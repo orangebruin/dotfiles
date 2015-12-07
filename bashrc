@@ -50,7 +50,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='\[\e[0;33m\]\h:\W \$\[\e[m\] '
+    # Old PS1 value. Saved just in case
+    #'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -68,7 +70,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    alias ls='ls -GF'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -78,6 +80,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias ls='ls -GF'
 alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
