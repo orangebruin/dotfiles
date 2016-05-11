@@ -14,14 +14,17 @@ set hls
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-colorscheme inkpot
+colorscheme jellybeans
 set listchars=tab:»·,trail:·
 set list
 set ignorecase
 set hidden
 
-nnoremap <silent> <m-F12> :BufExplorer<CR>
-nnoremap <silent> <F12> :BufExplorerHorizontalSplit<CR>
-nnoremap <silent> <c-F12> :BufExplorerVerticalSplit<CR>
-nnoremap <silent> <F8> :bn<CR>
-nnoremap <silent> <S-F8> :bp<CR>
+nnoremap <silent> <m-F8> :BufExplorer<CR>
+nnoremap <silent> <F8> :BufExplorerHorizontalSplit<CR>
+nnoremap <silent> <c-F8> :BufExplorerVerticalSplit<CR>
+nnoremap <silent> <F7> :bn<CR>
+nnoremap <silent> <S-F7> :bp<CR>
+
+autocmd Filetype ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype python setlocal tabstop=2 shiftwidth=2 softtabstop=2
